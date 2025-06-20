@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <style>
+        /* Your custom styles */
+        .section1 {
+            background-color: #252C75;
+            height: 120px;
+            width: 100%;
+        }
+
+        /* Adjustments for the logo and text alignment within section1 */
+        .section1 ul {
+            display: flex; /* Use flexbox for easier alignment */
+            align-items: center; /* Vertically align items in the center */
+            padding-left: 15px; /* Add some left padding to align with container content */
+            height: 100%; /* Make ul take full height of section1 for vertical centering */
+        }
+
+        .section1 li {
+            list-style: none; /* Ensure no bullets */
+        }
+
+        .section1 h2 {
+            margin-bottom: 0; /* Remove default margin-bottom from h2 */
+            margin-left: 20px; /* Keep your desired spacing */
+        }
+
+        /* Style for the download button */
+        .download-button-container {
+            margin-top: 20px; /* Add some space below the header */
+            text-align: center; /* Center the button if desired */
+        }
+
+        /* Custom style for the download button link */
+        .btn-download-app {
+            background-color: #007bff; /* Primary blue */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none; 
+            display: inline-block; 
+        }
+
+        .btn-download-app:hover {
+            background-color: #0056b3; 
+            color: white; 
+        }
+    </style>
+</head>
+<body>
+    <div class="section1">
+        <ul>
+            <li><img src="images/as_logo.jpg" style="border-radius: 30%;" height="80px" width="80px" alt="African Shipping Logo"></li>
+            <li><h2 style="color: white;">African Shipping</h2></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class="section2 download-button-container">
+            <img src="images/apk_document_90dp_252C75_FILL0_wght400_GRAD0_opsz48.png"  height="90px" width="90px" alt="">
+            <br>
+            <a href="app_update/app-debug.apk" download class="btn btn-primary btn-download-app">
+                Download App
+            </a>
+            </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>
